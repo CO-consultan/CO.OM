@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CO. Consultancy</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #222; }
+    header { background: #ffffff; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #ddd; }
+    header h1 { color: #144d3d; margin: 0; font-size: 24px; }
+    nav a { margin-left: 20px; color: #144d3d; text-decoration: none; font-weight: 500; }
+    .hero { text-align: center; padding: 60px 20px; background: #ffffff; }
+    .hero h2 { font-size: 36px; margin-bottom: 10px; color: #144d3d; }
+    .hero p { font-size: 18px; margin-bottom: 30px; color: #555; }
+    .hero button { background: #144d3d; color: white; border: none; padding: 12px 24px; font-size: 16px; border-radius: 4px; cursor: pointer; }
+    .services { display: flex; justify-content: center; gap: 30px; padding: 40px 20px; background: #f2f2f2; }
+    .service-box { background: white; padding: 20px; border-radius: 8px; width: 260px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+    .service-box h3 { color: #144d3d; margin-bottom: 10px; }
+    .testimonial { background: #ffffff; padding: 40px 20px; text-align: center; font-style: italic; color: #444; }
+    .stats { display: flex; justify-content: center; gap: 40px; background: #ffffff; padding: 20px; font-size: 20px; color: #144d3d; font-weight: bold; }
+    .contact { padding: 40px 20px; background: #f2f2f2; }
+    .contact h2 { text-align: center; margin-bottom: 20px; color: #144d3d; }
+    .contact-form { max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 10px; }
+    .contact-form input, .contact-form textarea { padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; }
+    .contact-form button { background: #144d3d; color: white; border: none; padding: 10px; font-size: 16px; cursor: pointer; }
+    footer { text-align: center; padding: 20px; font-size: 14px; color: #777; background: #fff; border-top: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CO. Consultancy</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Research That Matters. Impact That Lasts.</h2>
+    <p>Empowering research, community engagement and innovation through tailored strategies.</p>
+    <button>Contact Us</button>
+  </section>
+
+  <section class="services" id="services">
+    <div class="service-box">
+      <h3>Mentorship</h3>
+      <p>Provide solid strategies and guidance to elevate researcher capacity.</p>
+    </div>
+    <div class="service-box">
+      <h3>Citizen Science</h3>
+      <p>Connect science with communities to co-create impactful research.</p>
+    </div>
+    <div class="service-box">
+      <h3>Business Consulting</h3>
+      <p>Policy-aligned research planning and institutional consulting.</p>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    “The tailored strategies provided by CO. Consultancy significantly enhanced our community outreach efforts.”<br>
+    — Small Business Owner
+  </section>
+
+  <section class="stats">
+    <div>600+<br>Trained</div>
+    <div>90%<br>Satisfaction</div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="4" placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 CO. Consultancy | hello@co.om
+  </footer>
+</body>
+</html>
